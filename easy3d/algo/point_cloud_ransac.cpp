@@ -35,9 +35,9 @@
 #include <3rd_party/ransac/TorusPrimitiveShapeConstructor.h>
 #include <3rd_party/ransac/PlanePrimitiveShape.h>
 #include <3rd_party/ransac/CylinderPrimitiveShape.h>
-//#include <3rd_party/ransac/SpherePrimitiveShape.h>
-//#include <3rd_party/ransac/ConePrimitiveShape.h>
-//#include <3rd_party/ransac/TorusPrimitiveShape.h>
+//#include <3rd_party/plane_extraction/SpherePrimitiveShape.h>
+//#include <3rd_party/plane_extraction/ConePrimitiveShape.h>
+//#include <3rd_party/plane_extraction/TorusPrimitiveShape.h>
 
 //OMG, there is class with exactly the same name in RANSAC!!!
 typedef ::PointCloud PointCloud_Ransac;

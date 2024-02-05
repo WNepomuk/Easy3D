@@ -40,9 +40,9 @@ namespace easy3d {
      * \class PrimitivesRansac easy3d/algo/point_cloud_ransac.h
      * Usage example:
      *  \code
-     *      PrimitivesRansac ransac;
-     *      ransac.add_primitive_type(PrimitivesRansac::PLANE);
-     *      int num = ransac.detect(cloud);
+     *      PrimitivesRansac plane_extraction;
+     *      plane_extraction.add_primitive_type(PrimitivesRansac::PLANE);
+     *      int num = plane_extraction.detect(cloud);
      *  \endcode
      */
     class PrimitivesRansac {
