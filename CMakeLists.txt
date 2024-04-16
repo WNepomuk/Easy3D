@@ -254,6 +254,8 @@ endif ()
 add_subdirectory(applications)
 
 add_subdirectory(plane_extraction)
+
+add_subdirectory(down_sample)
 ################################################################################
 
 if (Easy3D_BUILD_DOCUMENTATION)
